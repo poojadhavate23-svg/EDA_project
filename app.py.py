@@ -20,9 +20,6 @@ df.shape
 
 df.columns
 
-df = df.drop(['url', 'address', 'phone', 'menu_item', 'dish_liked', 'reviews_list'], axis = 1)
-df.head()
-
 df.info()
 
 # 2. Clean cuisines column
