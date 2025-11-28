@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 plt.style.use('dark_background')
 
-df = pd.read_csv('zomato.csv')
+df = pd.read_csv(df = pd.read_csv("C:\Windows\System32\cmd.exe/zomato.csv"))
 df.head()
 
 df.shape
